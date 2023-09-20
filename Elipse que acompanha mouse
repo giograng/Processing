@@ -1,0 +1,8 @@
+#espaço de organização: indentação
+def setup ():
+    size(500,500) # tamanho da prancheta
+    background (255,255,50) # fundo amarelo
+
+def draw():
+    #background (255,255,50) # fundo amarelo
+    circle (mouseX, mouseY, 60)
